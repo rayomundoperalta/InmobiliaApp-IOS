@@ -8,39 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		7646C29B1E14724F00A92001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646C29A1E14724F00A92001 /* AppDelegate.swift */; };
-		7646C29D1E14724F00A92001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646C29C1E14724F00A92001 /* ViewController.swift */; };
 		7646C2A31E14724F00A92001 /* InmobiliaApp_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7646C2A11E14724F00A92001 /* InmobiliaApp_IOS.xcdatamodeld */; };
 		7646C2A51E14724F00A92001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7646C2A41E14724F00A92001 /* Assets.xcassets */; };
-		76836A971E1488A90002D941 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76836A931E1488A90002D941 /* FBSDKShareKit.framework */; };
-		76836A981E1488A90002D941 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76836A941E1488A90002D941 /* Bolts.framework */; };
-		76836A991E1488A90002D941 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76836A951E1488A90002D941 /* FBSDKCoreKit.framework */; };
-		76836A9A1E1488A90002D941 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76836A961E1488A90002D941 /* FBSDKLoginKit.framework */; };
 		76836A9C1E1489B40002D941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76836A9B1E1489B40002D941 /* Main.storyboard */; };
 		76836A9E1E1489D60002D941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76836A9D1E1489D60002D941 /* LaunchScreen.storyboard */; };
 		76836AA01E148B1F0002D941 /* CatalogoEstadosMunicipios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76836A9F1E148B1F0002D941 /* CatalogoEstadosMunicipios.swift */; };
 		76836AA21E148B2A0002D941 /* EstadosViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76836AA11E148B2A0002D941 /* EstadosViewControler.swift */; };
 		76836AA41E148B330002D941 /* MunicipiosViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76836AA31E148B330002D941 /* MunicipiosViewControler.swift */; };
 		76836AA61E148B4B0002D941 /* ValoresGlobales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76836AA51E148B4B0002D941 /* ValoresGlobales.swift */; };
+		76F91AAB1E15D3F700E45800 /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F91AAA1E15D3F700E45800 /* FBLoginViewController.swift */; };
+		76F91AAD1E15DCBC00E45800 /* ElPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F91AAC1E15DCBC00E45800 /* ElPin.swift */; };
+		76F91AAF1E15DF1900E45800 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AAE1E15DF1900E45800 /* MapKit.framework */; };
+		76F91AB11E15DF2300E45800 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AB01E15DF2300E45800 /* CoreLocation.framework */; };
+		76F91AB31E15E31400E45800 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F91AB21E15E31400E45800 /* MapViewController.swift */; };
+		76F91AB51E15ED7D00E45800 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AB41E15ED7D00E45800 /* FBNotifications.framework */; };
+		76F91AB71E15ED9000E45800 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AB61E15ED9000E45800 /* FBSDKCoreKit.framework */; };
+		76F91AB91E15EDAD00E45800 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AB81E15EDAD00E45800 /* FBSDKLoginKit.framework */; };
+		76F91ABB1E15EDD700E45800 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91ABA1E15EDD700E45800 /* FBSDKShareKit.framework */; };
+		76F91ABD1E15EDE800E45800 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91ABC1E15EDE800E45800 /* FBSDKMessengerShareKit.framework */; };
+		76F91ABF1E15EE0600E45800 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91ABE1E15EE0600E45800 /* FBAudienceNetwork.framework */; };
+		76F91AC11E15EE1400E45800 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AC01E15EE1400E45800 /* Bolts.framework */; };
+		76F91AC31E15EE2300E45800 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F91AC21E15EE2300E45800 /* AccountKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7646C2971E14724F00A92001 /* InmobiliaApp-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InmobiliaApp-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7646C29A1E14724F00A92001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7646C29C1E14724F00A92001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7646C2A21E14724F00A92001 /* InmobiliaApp_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InmobiliaApp_IOS.xcdatamodel; sourceTree = "<group>"; };
 		7646C2A41E14724F00A92001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7646C2A91E14724F00A92001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76836A911E1488540002D941 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		76836A931E1488A90002D941 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		76836A941E1488A90002D941 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		76836A951E1488A90002D941 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		76836A961E1488A90002D941 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		76836A9B1E1489B40002D941 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		76836A9D1E1489D60002D941 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76836A9F1E148B1F0002D941 /* CatalogoEstadosMunicipios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogoEstadosMunicipios.swift; sourceTree = "<group>"; };
 		76836AA11E148B2A0002D941 /* EstadosViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstadosViewControler.swift; sourceTree = "<group>"; };
 		76836AA31E148B330002D941 /* MunicipiosViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MunicipiosViewControler.swift; sourceTree = "<group>"; };
 		76836AA51E148B4B0002D941 /* ValoresGlobales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValoresGlobales.swift; sourceTree = "<group>"; };
+		76F91AAA1E15D3F700E45800 /* FBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		76F91AAC1E15DCBC00E45800 /* ElPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElPin.swift; sourceTree = "<group>"; };
+		76F91AAE1E15DF1900E45800 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapKit.framework; sourceTree = "<group>"; };
+		76F91AB01E15DF2300E45800 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreLocation.framework; sourceTree = "<group>"; };
+		76F91AB21E15E31400E45800 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		76F91AB41E15ED7D00E45800 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		76F91AB61E15ED9000E45800 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		76F91AB81E15EDAD00E45800 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		76F91ABA1E15EDD700E45800 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		76F91ABC1E15EDE800E45800 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		76F91ABE1E15EE0600E45800 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		76F91AC01E15EE1400E45800 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		76F91AC21E15EE2300E45800 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +64,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76836A971E1488A90002D941 /* FBSDKShareKit.framework in Frameworks */,
-				76836A991E1488A90002D941 /* FBSDKCoreKit.framework in Frameworks */,
-				76836A9A1E1488A90002D941 /* FBSDKLoginKit.framework in Frameworks */,
-				76836A981E1488A90002D941 /* Bolts.framework in Frameworks */,
+				76F91AB11E15DF2300E45800 /* CoreLocation.framework in Frameworks */,
+				76F91AB71E15ED9000E45800 /* FBSDKCoreKit.framework in Frameworks */,
+				76F91ABB1E15EDD700E45800 /* FBSDKShareKit.framework in Frameworks */,
+				76F91AB91E15EDAD00E45800 /* FBSDKLoginKit.framework in Frameworks */,
+				76F91AB51E15ED7D00E45800 /* FBNotifications.framework in Frameworks */,
+				76F91AAF1E15DF1900E45800 /* MapKit.framework in Frameworks */,
+				76F91AC11E15EE1400E45800 /* Bolts.framework in Frameworks */,
+				76F91AC31E15EE2300E45800 /* AccountKit.framework in Frameworks */,
+				76F91ABD1E15EDE800E45800 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				76F91ABF1E15EE0600E45800 /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +101,6 @@
 			children = (
 				76836A911E1488540002D941 /* Bridging-Header.h */,
 				7646C29A1E14724F00A92001 /* AppDelegate.swift */,
-				7646C29C1E14724F00A92001 /* ViewController.swift */,
 				76836A9B1E1489B40002D941 /* Main.storyboard */,
 				7646C2A41E14724F00A92001 /* Assets.xcassets */,
 				76836A9D1E1489D60002D941 /* LaunchScreen.storyboard */,
@@ -90,6 +111,9 @@
 				76836AA31E148B330002D941 /* MunicipiosViewControler.swift */,
 				76836AA51E148B4B0002D941 /* ValoresGlobales.swift */,
 				76836A921E1488730002D941 /* Frameworks */,
+				76F91AAA1E15D3F700E45800 /* FBLoginViewController.swift */,
+				76F91AAC1E15DCBC00E45800 /* ElPin.swift */,
+				76F91AB21E15E31400E45800 /* MapViewController.swift */,
 			);
 			path = "InmobiliaApp-IOS";
 			sourceTree = "<group>";
@@ -97,10 +121,16 @@
 		76836A921E1488730002D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				76836A931E1488A90002D941 /* FBSDKShareKit.framework */,
-				76836A941E1488A90002D941 /* Bolts.framework */,
-				76836A951E1488A90002D941 /* FBSDKCoreKit.framework */,
-				76836A961E1488A90002D941 /* FBSDKLoginKit.framework */,
+				76F91AC21E15EE2300E45800 /* AccountKit.framework */,
+				76F91AC01E15EE1400E45800 /* Bolts.framework */,
+				76F91ABE1E15EE0600E45800 /* FBAudienceNetwork.framework */,
+				76F91ABC1E15EDE800E45800 /* FBSDKMessengerShareKit.framework */,
+				76F91ABA1E15EDD700E45800 /* FBSDKShareKit.framework */,
+				76F91AB81E15EDAD00E45800 /* FBSDKLoginKit.framework */,
+				76F91AB61E15ED9000E45800 /* FBSDKCoreKit.framework */,
+				76F91AB41E15ED7D00E45800 /* FBNotifications.framework */,
+				76F91AB01E15DF2300E45800 /* CoreLocation.framework */,
+				76F91AAE1E15DF1900E45800 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,11 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7646C29D1E14724F00A92001 /* ViewController.swift in Sources */,
 				7646C2A31E14724F00A92001 /* InmobiliaApp_IOS.xcdatamodeld in Sources */,
 				76836AA21E148B2A0002D941 /* EstadosViewControler.swift in Sources */,
 				7646C29B1E14724F00A92001 /* AppDelegate.swift in Sources */,
+				76F91AAD1E15DCBC00E45800 /* ElPin.swift in Sources */,
+				76F91AB31E15E31400E45800 /* MapViewController.swift in Sources */,
 				76836AA01E148B1F0002D941 /* CatalogoEstadosMunicipios.swift in Sources */,
+				76F91AAB1E15D3F700E45800 /* FBLoginViewController.swift in Sources */,
 				76836AA41E148B330002D941 /* MunicipiosViewControler.swift in Sources */,
 				76836AA61E148B4B0002D941 /* ValoresGlobales.swift in Sources */,
 			);

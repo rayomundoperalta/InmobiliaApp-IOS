@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InmobiliaApp_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FBLoginViewController" customModule="InmobiliaApp_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -43,11 +44,44 @@
                     <connections>
                         <outlet property="ImageView" destination="WNO-zo-7mg" id="2xg-iH-gf0"/>
                         <outlet property="botonLogin" destination="Y2u-Li-oy0" id="hN8-Ou-Pf3"/>
+                        <segue destination="atu-qe-SXq" kind="show" identifier="PasemosAlMapa" id="mWs-yS-5EG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="342"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="XuZ-Tb-5PZ">
+            <objects>
+                <viewController id="atu-qe-SXq" customClass="MapViewController" customModule="InmobiliaApp_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="48c-QD-yco"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vvq-Qm-SrH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LcX-U8-Sga">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0Tw-Q7-juj">
+                                <rect key="frame" x="20" y="60" width="560" height="540"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Tw-Q7-juj" secondAttribute="trailing" id="AGw-EW-rQB"/>
+                            <constraint firstItem="Vvq-Qm-SrH" firstAttribute="top" secondItem="0Tw-Q7-juj" secondAttribute="bottom" id="meQ-SP-wva"/>
+                            <constraint firstItem="0Tw-Q7-juj" firstAttribute="top" secondItem="48c-QD-yco" secondAttribute="bottom" constant="40" id="wK7-mY-xxB"/>
+                            <constraint firstItem="0Tw-Q7-juj" firstAttribute="leading" secondItem="LcX-U8-Sga" secondAttribute="leadingMargin" id="wr7-7O-dbi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapa" destination="0Tw-Q7-juj" id="4D5-6h-hcJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J6q-HN-JCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="342"/>
         </scene>
     </scenes>
 </document>
